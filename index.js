@@ -5,10 +5,6 @@ const token = '2024860271:AAHlgbCXGS3BXmrrY05ID6Nqb5L54XO9_FM'
 const bot = new TelegramApi(token, {polling : true})
 
 
-// bot.setMyCommands([
-//     {command : '/start', description : 'Выдача сообщения'}
-// ])
-
 bot.on('message',msg => {
     
     const text = msg.text
